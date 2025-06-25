@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fraud Detection Form</title>
+</head>
+<body>
+    <h2>Enter Transaction Details</h2>
+    <form method="post" action="/predict">
+        <!-- Example: Adjust fields based on actual features used -->
+        <label for="TransactionAmt">Transaction Amount:</label>
+        <input type="number" step="any" name="TransactionAmt" required><br><br>
+
+        <label for="oldbalanceOrg">Old Balance:</label>
+        <input type="number" step="any" name="oldbalanceOrg" required><br><br>
+
+        <label for="newbalanceOrig">New Balance:</label>
+        <input type="number" step="any" name="newbalanceOrig" required><br><br>
+
+        <label for="Transaction Type:">Transaction Type:</label>
+        <select name="type">
+            <option value="TRANSFER">TRANSFER</option>
+            <option value="CASH_OUT">CASH_OUT</option>
+        </select><br><br>
+
+        <input type="submit" value="Predict Fraud">
+    </form>
+</body>
+</html>

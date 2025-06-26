@@ -1,6 +1,5 @@
 # --- Python Bytecode & Cache ---
 __pycache__/
-*.py[cod]
 *.pyo
 *.pyd
 
@@ -29,12 +28,10 @@ env/
 # --- Data Files (Too Large for GitHub) ---
 smote_balanced_data.csv
 train_transaction.csv
-*.csv
 *.zip
 *.tar.gz
 
 # --- Machine Learning Artifacts ---
-*.pkl
 *.joblib
 *.h5
 *.hdf5

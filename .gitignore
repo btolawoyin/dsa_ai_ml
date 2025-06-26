@@ -1,0 +1,53 @@
+# --- Python Bytecode & Cache ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# --- Virtual Environments ---
+venv/
+env/
+.venv/
+
+# --- Jupyter Notebooks Checkpoints ---
+.ipynb_checkpoints/
+
+# --- Logs and Dumps ---
+*.log
+*.out
+*.pid
+*.tmp
+
+# --- IDE & Editor Configs ---
+.vscode/
+.idea/
+
+# --- Environment Variables & Credentials ---
+.env
+*.env
+
+# --- Data Files (Too Large for GitHub) ---
+smote_balanced_data.csv
+train_transaction.csv
+*.csv
+*.zip
+*.tar.gz
+
+# --- Machine Learning Artifacts ---
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+*.model
+
+# --- System Files ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Output Files ---
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.pptx
